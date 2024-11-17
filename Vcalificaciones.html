@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    let cal = prompt("Ingrese su calificacion: ");
+    if (cal <= 100 && cal >= 0 ){
+        if (cal >= 90){
+            console.log("APROBADO CON HONORES");
+        }
+        else if (cal >= 70 && cal < 90){
+            console.log("APROBADO");
+        }
+        else if (cal <= 70){
+            console.log("REPROBADO");
+        }
+    }
+    else {
+        console.log("Error: Calificacion mal ingresada")
+    }
+</script>
+</body>
+</html>

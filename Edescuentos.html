@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let precio = prompt("Ingrese el monto total de su compra: ");
+        if(precio >= 100){
+            let dis = precio - ((precio*10)/precio)
+            console.log("Aplica para descuento, su precio final es: ", dis)
+        }
+        else{
+            console.log("No aplica descuento")
+        }
+    </script>
+</body>
+</html>
